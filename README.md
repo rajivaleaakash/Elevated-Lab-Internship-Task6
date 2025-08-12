@@ -87,9 +87,9 @@ You can expand these queries for further analysis (store-wise, time-wise, promot
    ```
 
 2. **Set up MySQL Database**  
-   - Create a new database for the project.
-   - Run the table creation scripts.
-   - Insert sample data from provided files.
+   - `sales_database_dump_file.sql` MySQL database dump file is provided
+   - import it by Data import option from server
+   - also provided the `walmart_schema.sql` file you can use it and insert the data by your own.
 
 3. **Run Analysis Queries**  
    - Use the aggregation SQL scripts to explore sales trends.
